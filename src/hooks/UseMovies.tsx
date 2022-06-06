@@ -13,10 +13,10 @@ interface MoviesState {
 export const UseMovies = () => {
     const [isLoading, setIsLoading] = useState<boolean>(true)
     const [moviesState, setMoviesState] = useState<MoviesState>({
-        now_Playing: Movie[];
-        popular: Movie[];
-        topRated: Movie[];
-        upcoming: Movie[];
+        now_Playing: [],
+        popular: [],
+        topRated: [],
+        upcoming: []
     })
 
 
